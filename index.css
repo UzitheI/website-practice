@@ -1,0 +1,160 @@
+body{
+    color: black;
+   margin: 0px 0px;
+   padding: 0px;
+   background: url(img/evan-wise-wTcD3MwL_VY-unsplash.jpg);
+    font-family: 'Ubuntu', sans-serif;
+}
+.header{
+    background-color: rgb(58, 58, 37);
+}
+.left{
+    /* border: 2px solid red;  */
+    display: inline-block;
+    position: absolute;
+    margin: 0px 0px;
+    padding: 11px 20px;
+    top: 24px;
+    left: 34px;
+
+}
+.mid{
+    /* border: 2px solid pink;  */
+    display: block;
+    position: relative;
+    width: 30%;
+    margin: auto;
+    top: 24px;
+    padding: 20px 20px;
+
+    
+}
+    
+
+
+.right{
+    /* border: 2px solid green;  */
+    display: inline-block;
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    padding: 20px 20px;
+    margin: 0px 0px;
+
+}
+.navbar{
+    display: inline-block;
+    left: -60px;
+    position: relative;
+
+}
+.navbar li{
+    display: inline-block;
+    
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    margin: 6px 4px;
+    font-size: 19px;
+    padding: 5px;
+    
+}
+.navbar li a:hover{
+    color: black;
+    text-decoration: underline;
+    background-color: grey;
+}
+.left img{
+    width: 65px;
+    position: relative;
+    top: -6px;
+    font-weight: 45px;
+    
+}
+.left p{
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    top: -18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.left p:hover, .left p:active{
+    cursor: pointer;
+}
+.left img:hover{
+    background-color: grey;
+    cursor: pointer;
+    
+}
+.btn{
+    
+    padding: 3px 22px;
+    border: 2px solid black;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    top: 11px;
+}
+
+
+.btn:hover,.btn:active{
+    background-color: grey;
+    cursor: pointer;
+    
+
+}
+.container{
+    /* border: 2px solid red; */
+    margin: 47px 47px;
+    padding: 47px 26px;
+    width: 33%;
+    border-radius: 33%;
+}
+.formgroup input{
+    font-size: 14px;
+     border-radius: 15%;
+    text-align: center;
+    display: block;
+    width: 266px;
+    padding: 8px;
+    border: 2px solid black;
+    margin: 3px auto
+    
+
+}
+h1{
+    text-align: center;
+}
+.bten{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 58px;
+
+}
+.man{
+    position: relative;
+    top: -276px;
+    right: -518px;
+    margin: -99px 214px;
+    width: 244px;
+
+}
+.nam{
+    position: relative;
+    top: -276px;
+    right: -143px;
+    margin: -99px 214px;
+    width: 244px;
+   
+
+}
+.quote{
+    color: white;
+    font-size: 27px;
+    position: relative;
+    left: 642px;
+    top: -174px;
+
+}
